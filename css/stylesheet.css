@@ -47,6 +47,9 @@
 
 #student_section {
     height: 100vh;
+    background-image: url("../media/transparent_students.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 #student_projects {
@@ -63,6 +66,9 @@
 
 #business_section {
     height: 100vh;
+    background-image: url("../media/transparent_business.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 #business_local {
@@ -75,4 +81,11 @@
 
 #business_grants {
     height: 100vh;
+
+}
+#contact_us {
+    height: 100vh;
+    background-image: url("../media/contact_us.png");
+    background-repeat: no-repeat;
+    background-position: center
 }
