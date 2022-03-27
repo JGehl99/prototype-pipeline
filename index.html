@@ -8,6 +8,8 @@
     <title>Prototype Pipeline</title>
 </head>
 <body>
+
+
     <nav class="navbar fixed-top navbar-dark navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand text-white" href="#">Prototype Pipeline</a>
@@ -30,7 +32,8 @@
         </div>
     </nav>
 
-    <div id="main_section" class="bg-main">
+
+    <div id="main_section" class="bg-main vert_h">
         <div class="spacer d-none d-md-block"></div>
         <div class="spacer-collapse .d-none .d-md-block .d-lg-none"></div>
         <div class="container">
@@ -50,257 +53,1206 @@
 
     </div>
 
-    <div id="student_section" class="bg-student">
-        <div class="spacer-sm"></div>
-        <div>
-            <img src="media/student_banner.png" alt="student banner">
-        </div>
-        <div class="spacer"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-                    <a class="link-light" href="#student_projects">Ongoing Projects</a>
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-                    <a class="link-light " href="#student_jobs">Job Postings</a>
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-                    <a class="link-light " href="#student_local">Local Businesses</a>
-                </div>
+    <div class="bg-student">
 
+        <div id="student_section" class="bg-student vert_h">
+            <div class="spacer-sm"></div>
+            <div class="banner text-center align-middle justify-content-center d-flex  align-items-center">
+                <h1 class="h1 text-white">Student</h1>
+            </div>
+            <div class="spacer"></div>
+            <div class="container">
+                <div class="row-6">
+                    <a class="col-md button-box bg-main d-flex justify-content-center align-items-center" href="#student_programs">
+                        <p class="m-1 text-white">Programs</p>
+                    </a>
+                    <a class="col-md button-box bg-main d-flex justify-content-center align-items-center" href="#student_businesses">
+                        <p class="m-1 text-white">Local Businesses</p>
+                    </a>
+                    <a class="col-md button-box bg-main d-flex justify-content-center align-items-center" href="#student_datasets">
+                        <p class="m-1 text-white">Datasets</p>
+                    </a>
+                    <a class="col-md button-box bg-main d-flex justify-content-center align-items-center" href="#student_employment">
+                        <p class="m-1 text-white">Employment Opportunities</p>
+                    </a>
+
+                </div>
             </div>
         </div>
+
+        <div id="student_programs" class="bg-student vert_h">
+            <div class="spacer-sm bg-student"></div>
+            <div class="banner text-center align-middle justify-content-center d-flex  align-items-center">
+                <h1 class="h1 text-white">Programs</h1>
+            </div>
+            <div class="spacer-sm bg-student"></div>
+            <div class="container col-12">
+                <div class="accordion" id="studentProgramAccordion">
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="studentProgramHeadingOne">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#studentProgramCollapseOne" aria-expanded="true" aria-controls="studentProgramCollapseOne">
+                                WETech Founders
+                            </button>
+                        </h2>
+                        <div id="studentProgramCollapseOne" class="accordion-collapse collapse" aria-labelledby="studentProgramHeadingOne" data-bs-parent="#studentProgramAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentProgramHeadingTwo">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentProgramCollapseTwo" aria-expanded="false" aria-controls="studentProgramCollapseTwo">
+                                EPIC Founders Accelerating 2020s Program
+                            </button>
+                        </h2>
+                        <div id="studentProgramCollapseTwo" class="accordion-collapse collapse" aria-labelledby="studentProgramHeadingTwo" data-bs-parent="#studentProgramAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentProgramHeadingThree">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentProgramCollapseThree" aria-expanded="false" aria-controls="studentProgramCollapseThree">
+                                EPIC Discovery Program
+                            </button>
+                        </h2>
+                        <div id="studentProgramCollapseThree" class="accordion-collapse collapse" aria-labelledby="studentProgramHeadingThree" data-bs-parent="#studentProgramAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="studentProgramHeadingFour">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#studentProgramCollapseFour" aria-expanded="true" aria-controls="studentProgramCollapseFour">
+                                The RBC EPIC Founders Program
+                            </button>
+                        </h2>
+                        <div id="studentProgramCollapseFour" class="accordion-collapse collapse" aria-labelledby="studentProgramHeadingFour" data-bs-parent="#studentProgramAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentProgramHeadingFive">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentProgramCollapseFive" aria-expanded="false" aria-controls="studentProgramCollapseFive">
+                                EPIC VentureWomen
+                            </button>
+                        </h2>
+                        <div id="studentProgramCollapseFive" class="accordion-collapse collapse" aria-labelledby="studentProgramHeadingFive" data-bs-parent="#studentProgramAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentProgramHeadingSix">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentProgramCollapseSix" aria-expanded="false" aria-controls="studentProgramCollapseSix">
+                                St.Clair Genesis
+                            </button>
+                        </h2>
+                        <div id="studentProgramCollapseSix" class="accordion-collapse collapse" aria-labelledby="studentProgramHeadingSix" data-bs-parent="#studentProgramAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="student_businesses" class="bg-student vert_h">
+            <div class="spacer-sm bg-student"></div>
+            <div class="banner text-center align-middle justify-content-center d-flex  align-items-center">
+                <h1 class="h1 text-white">Local Businesses</h1>
+            </div>
+            <div class="spacer-sm bg-student"></div>
+            <div class="container col-12">
+                <div class="accordion" id="studentBusinessAccordion">
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="studentBusinessHeadingOne">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#studentBusinessCollapseOne" aria-expanded="true" aria-controls="studentBusinessCollapseOne">
+
+                            </button>
+                        </h2>
+                        <div id="studentBusinessCollapseOne" class="accordion-collapse collapse" aria-labelledby="studentBusinessHeadingOne" data-bs-parent="#studentBusinessAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentBusinessHeadingTwo">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentBusinessCollapseTwo" aria-expanded="false" aria-controls="studentBusinessCollapseTwo">
+
+                            </button>
+                        </h2>
+                        <div id="studentBusinessCollapseTwo" class="accordion-collapse collapse" aria-labelledby="studentBusinessHeadingTwo" data-bs-parent="#studentBusinessAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentBusinessHeadingThree">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentBusinessCollapseThree" aria-expanded="false" aria-controls="studentBusinessCollapseThree">
+
+                            </button>
+                        </h2>
+                        <div id="studentBusinessCollapseThree" class="accordion-collapse collapse" aria-labelledby="studentBusinessHeadingThree" data-bs-parent="#studentBusinessAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="studentBusinessHeadingFour">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#studentBusinessCollapseFour" aria-expanded="true" aria-controls="studentBusinessCollapseFour">
+
+                            </button>
+                        </h2>
+                        <div id="studentBusinessCollapseFour" class="accordion-collapse collapse" aria-labelledby="studentBusinessHeadingFour" data-bs-parent="#studentBusinessAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentBusinessHeadingFive">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentBusinessCollapseFive" aria-expanded="false" aria-controls="studentBusinessCollapseFive">
+
+                            </button>
+                        </h2>
+                        <div id="studentBusinessCollapseFive" class="accordion-collapse collapse" aria-labelledby="studentBusinessHeadingFive" data-bs-parent="#studentBusinessAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentBusinessHeadingSix">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentBusinessCollapseSix" aria-expanded="false" aria-controls="studentBusinessCollapseSix">
+
+                            </button>
+                        </h2>
+                        <div id="studentBusinessCollapseSix" class="accordion-collapse collapse" aria-labelledby="studentBusinessHeadingSix" data-bs-parent="#studentBusinessAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="student_datasets" class="bg-student vert_h">
+            <div class="spacer-sm"></div>
+            <div class="banner text-center align-middle justify-content-center d-flex  align-items-center">
+                <h1 class="h1 text-white">Datasets</h1>
+            </div>
+            <div class="spacer-sm"></div>
+            <div class="container col-12">
+                <div class="accordion" id="studentDatasetAccordion">
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="studentDatasetHeadingOne">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#studentDatasetCollapseOne" aria-expanded="true" aria-controls="studentDatasetCollapseOne">
+                                Automotive & Mobility Related Startups
+                            </button>
+                        </h2>
+                        <div id="studentDatasetCollapseOne" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingOne" data-bs-parent="#studentDatasetAccordion">
+                            <div class="accordion-body bg-white">
+                                <div class="list-group">
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://tracxn.com/explore/Auto-IT-Startups-in-Canada">Auto IT Startups in Canada</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://tracxn.com/explore/Road-Transport-Tech-Startups-in-Canada">Road Transport Tech Startups in Canada</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.seedtable.com/startups-mobility">Mobility Startups</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://startupprize.eu/2022/01/25/europes-top-50-clean-mobility-startups-for-2022/">Top 50 European Mobility Startups</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://naias.mediaroom.com/2017-12-06-57-Startups-From-Around-the-World-Confirmed-to-Showcase-Mobility-Focused-Innovations-as-Part-of-2018-AutoMobili-D">Mobility-focused Startups around the World</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.plugandplaytechcenter.com/mobility/startups/(2018)">Mobility Startups</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentDatasetHeadingTwo">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentDatasetCollapseTwo" aria-expanded="false" aria-controls="studentDatasetCollapseTwo">
+                                Automotive Industry
+                            </button>
+                        </h2>
+                        <div id="studentDatasetCollapseTwo" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingTwo" data-bs-parent="#studentDatasetAccordion">
+                            <div class="accordion-body bg-white">
+                                <div class="list-group">
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.businesswire.com/news/home/20200721005623/en/North-American-Automotive-Market-Report-2020-2025---ResearchAndMarkets.com">North American Automotive Market Report 2020-2025</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.epa.gov/smartsectors/automotive-sector-information">Automotive Sector Information</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.statista.com/topics/1721/us-automotive-industry/#topicHeader__wrapper">US Automotive Industry</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.marketresearch.com/Heavy-Industry-c1595/Transportation-Shipping-c95/Electric-Vehicles-c873/">Electric Vehicle Market Research</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.workforcewindsoressex.com/wp-content/uploads/2017/12/Driving-the-Automotive-Industry-into-the-Future-English.pdf">Windsor Automotive Industry Research and Trends</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://assets.kpmg/content/dam/kpmg/xx/pdf/2021/11/global-automotive-executive-summary-2021.pdf">Global Automotive Executive Summary 2021</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentDatasetHeadingThree">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentDatasetCollapseThree" aria-expanded="false" aria-controls="studentDatasetCollapseThree">
+                                Batteries
+                            </button>
+                        </h2>
+                        <div id="studentDatasetCollapseThree" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingThree" data-bs-parent="#studentDatasetAccordion">
+                            <div class="accordion-body bg-white">
+                                <div class="list-group">
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://new.abb.com/docs/librariesprovider89/default-document-library/automotive-battery-supply-chain-analysis-2021-final_abb_ams---abridged-version-docx.pdf?sfvrsn=3bc9f708_2">Automotive Battery Supply Chain Analysis</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.technavio.com/report/electric-vehicle-battery-market-industry-analysis">Vehicle Battery Market Analysis</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://statistics.technavio.org/statistics/electric-vehicle-battery-growth">Vehicle Battery Growth</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.statista.com/statistics/1129463/forecasted-electric-vehicle-battery-demand-worldwide/">Forecasted Electric Vehicle Battery Demands Worldwide</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://statistics.technavio.org/statistics/electric-vehicle-battery-insights">Electric Vehicle Battery Insights</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.technavio.com/report/electric-vehicle-battery-current-sensor-market-industry-analysis">Electric Vehicle Batter Sensor Industry Analysis</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="studentDatasetHeadingFour">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#studentDatasetCollapseFour" aria-expanded="true" aria-controls="studentDatasetCollapseFour">
+                                Sensors
+                            </button>
+                        </h2>
+                        <div id="studentDatasetCollapseFour" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingFour" data-bs-parent="#studentDatasetAccordion">
+                            <div class="accordion-body bg-white">
+                                <div class="list-group">
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.statista.com/statistics/799340/estimated-global-unit-sales-automotive-sensors/">Estimated Global Unit Sales of Automotive Sensors</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.statista.com/statistics/1233166/automotive-sensor-manufacturers-global-market-share/">Automotive Sensor Manufacturers Global Market Share</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.technavio.com/report/autonomous-vehicle-sensors-market-industry-analysis">Vehicle Sensor Market Industry Analysis</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://www.tdk-electronics.tdk.com/download/1421670/0228ab4ceefb0f4ffd65c26462f3dbf9/ntc-automotive-sensors-pb.pdf">Automotive Sensor Technical Document</a>
+                                    <a class="list-group-item list-group-item-action" target="_blank" href="https://efficiencywins.nexperia.com/dam/jcr:48767063-a3dc-43f2-a7ff-1c9d1c3fb753/2020%20Autonomous%20Vehicle%20Technology%20Report.pdf">Vehicle Technology Report</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="student_employment" class="bg-student vert_h">
+            <div class="spacer-sm"></div>
+            <div class="banner text-center align-middle justify-content-center d-flex  align-items-center">
+                <h1 class="h1 text-white">Employment Opportunities</h1>
+            </div>
+            <div class="spacer-sm"></div>
+            <div class="container col-12">
+                <div class="accordion" id="studentEmploymentAccordion">
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="studentEmploymentHeadingOne">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#studentEmploymentCollapseOne" aria-expanded="true" aria-controls="studentEmploymentCollapseOne">
+
+                            </button>
+                        </h2>
+                        <div id="studentEmploymentCollapseOne" class="accordion-collapse collapse" aria-labelledby="studentEmploymentHeadingOne" data-bs-parent="#studentEmploymentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentEmploymentHeadingTwo">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentEmploymentCollapseTwo" aria-expanded="false" aria-controls="studentEmploymentCollapseTwo">
+
+                            </button>
+                        </h2>
+                        <div id="studentEmploymentCollapseTwo" class="accordion-collapse collapse" aria-labelledby="studentEmploymentHeadingTwo" data-bs-parent="#studentEmploymentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentEmploymentHeadingThree">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentEmploymentCollapseThree" aria-expanded="false" aria-controls="studentEmploymentCollapseThree">
+
+                            </button>
+                        </h2>
+                        <div id="studentEmploymentCollapseThree" class="accordion-collapse collapse" aria-labelledby="studentEmploymentHeadingThree" data-bs-parent="#studentEmploymentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="studentEmploymentHeadingFour">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#studentEmploymentCollapseFour" aria-expanded="true" aria-controls="studenEmploymentCollapseFour">
+
+                            </button>
+                        </h2>
+                        <div id="studentEmploymentCollapseFour" class="accordion-collapse collapse" aria-labelledby="studentEmploymentHeadingFour" data-bs-parent="#studentEmploymentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentEmploymentHeadingFive">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentEmploymentCollapseFive" aria-expanded="false" aria-controls="studentEmploymentCollapseFive">
+
+                            </button>
+                        </h2>
+                        <div id="studentEmploymentCollapseFive" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingFive" data-bs-parent="#studentEmploymentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="studentEmploymentHeadingSix">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#studentEmploymentCollapseSix" aria-expanded="false" aria-controls="studentEmploymentCollapseSix">
+
+                            </button>
+                        </h2>
+                        <div id="studentEmploymentCollapseSix" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingSix" data-bs-parent="#studentEmploymentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <div id="student_projects" class="bg-student">
-        <div class="spacer-sm"></div>
-        <div>
-            <img src="media/student_ongoing.png" alt="student banner">
-        </div>
-        <div class="spacer-sm"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
+    <div class="bg-business">
 
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
+        <div id="business_section" class="bg-business vert_h">
+            <div class="spacer-sm"></div>
+            <div class="banner text-center align-middle justify-content-center d-flex  align-items-center">
+                <h1 class="h1 text-white">Business</h1>
             </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
+            <div class="spacer"></div>
+            <div class="container">
+                <div class="row-6">
+                    <a class="col-md button-box bg-main d-flex justify-content-center align-items-center" href="#business_local">
+                        <p class="m-1 text-white">Local Talent</p>
+                    </a>
+                    <a class="col-md button-box bg-main d-flex justify-content-center align-items-center" href="#business_programs">
+                        <p class="m-1 text-white">Programs</p>
+                    </a>
+                    <a class="col-md button-box bg-main d-flex justify-content-center align-items-center" href="#business_grants">
+                        <p class="m-1 text-white">Grants</p>
+                    </a>
 
                 </div>
             </div>
         </div>
-    </div>
-    <div id="student_jobs" class="bg-student">
-        <div class="spacer-sm"></div>
-        <div>
-            <img src="media/student_jobs.png" alt="student banner">
-        </div>
-        <div class="spacer-sm"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
 
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
 
-                </div>
+        <div id="business_local" class="bg-business vert_h">
+            <div class="spacer-sm"></div>
+            <div class="banner text-center align-middle justify-content-center d-flex  align-items-center">
+                <h1 class="h1 text-white">Local Talent</h1>
             </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
+            <div class="spacer-sm"></div>
+            <div class="container col-12">
+                <div class="accordion" id="businessTalentAccordion">
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="businessTalentHeadingOne">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#businessTalentCollapseOne" aria-expanded="true" aria-controls="businessTalentCollapseOne">
 
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
+                            </button>
+                        </h2>
+                        <div id="businessTalentCollapseOne" class="accordion-collapse collapse" aria-labelledby="businessTalentHeadingOne" data-bs-parent="#businessTalentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessTalentHeadingTwo">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessTalentCollapseTwo" aria-expanded="false" aria-controls="businessTalentCollapseTwo">
 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
+                            </button>
+                        </h2>
+                        <div id="businessTalentCollapseTwo" class="accordion-collapse collapse" aria-labelledby="businessTalentHeadingTwo" data-bs-parent="#businessTalentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessTalentHeadingThree">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessTalentCollapseThree" aria-expanded="false" aria-controls="businessTalentCollapseThree">
 
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
+                            </button>
+                        </h2>
+                        <div id="businessTalentCollapseThree" class="accordion-collapse collapse" aria-labelledby="businessTalentHeadingThree" data-bs-parent="#businessTalentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="businessTalentHeadingFour">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#businessTalentCollapseFour" aria-expanded="true" aria-controls="studenEmploymentCollapseFour">
 
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="student_local" class="bg-student">
-        <div class="spacer-sm"></div>
-        <div>
-            <img src="media/student_local.png" alt="student banner">
-        </div>
-        <div class="spacer-sm"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
+                            </button>
+                        </h2>
+                        <div id="businessTalentCollapseFour" class="accordion-collapse collapse" aria-labelledby="businessTalentHeadingFour" data-bs-parent="#businessTalentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessTalentHeadingFive">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessTalentCollapseFive" aria-expanded="false" aria-controls="businessTalentCollapseFive">
 
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
+                            </button>
+                        </h2>
+                        <div id="businessTalentCollapseFive" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingFive" data-bs-parent="#businessTalentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessTalentHeadingSix">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessTalentCollapseSix" aria-expanded="false" aria-controls="businessTalentCollapseSix">
 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="business_section" class="bg-business">
-        <div class="spacer-sm"></div>
-        <div>
-            <img src="media/business_banner.png" alt="student banner">
-        </div>
-        <div class="spacer"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-                    <a class="link-light" href="#business_local">Local Talent</a>
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-                    <a class="link-light" href="#business_programs">Programs</a>
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-                    <a class="link-light" href="#business_grants">Grants</a>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div id="business_local" class="bg-business">
-        <div class="spacer-sm"></div>
-        <div>
-            <img src="media/business_local.png" alt="student banner">
-        </div>
-        <div class="spacer-sm"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="business_programs" class="bg-business">
-        <div class="spacer-sm"></div>
-        <div>
-            <img src="media/business_programs.png" alt="student banner">
-        </div>
-        <div class="spacer-sm"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="business_grants" class="bg-business">
-        <div class="spacer-sm"></div>
-        <div>
-            <img src="media/business_grants.png" alt="student banner">
-        </div>
-        <div class="spacer-sm"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
-                </div>
-                <div class="col-md button-box bg-main d-flex justify-content-center align-items-center">
-
+                            </button>
+                        </h2>
+                        <div id="businessTalentCollapseSix" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingSix" data-bs-parent="#businessTalentAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="contact_us" class="bg-main">
-        <div class="spacer-sm"></div>
-        <div>
-            <img src="media/get_in_touch.png" alt="student banner">
-        </div>
-        <div class="spacer-sm"></div>
 
+        <div id="business_programs" class="bg-business vert_h">
+            <div class="spacer-sm"></div>
+            <div class="banner text-center align-middle justify-content-center d-flex  align-items-center">
+                <h1 class="h1 text-white">Programs</h1>
+            </div>
+            <div class="spacer-sm"></div>
+            <div class="container col-12">
+                <div class="accordion" id="businessProgramsAccordion">
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="businessProgramsHeadingOne">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#businessProgramsCollapseOne" aria-expanded="true" aria-controls="businessProgramsCollapseOne">
+
+                            </button>
+                        </h2>
+                        <div id="businessProgramsCollapseOne" class="accordion-collapse collapse" aria-labelledby="businessProgramsHeadingOne" data-bs-parent="#businessProgramsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessProgramsHeadingTwo">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessProgramsCollapseTwo" aria-expanded="false" aria-controls="businessProgramsCollapseTwo">
+
+                            </button>
+                        </h2>
+                        <div id="businessProgramsCollapseTwo" class="accordion-collapse collapse" aria-labelledby="businessProgramsHeadingTwo" data-bs-parent="#businessProgramsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessProgramsHeadingThree">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessProgramsCollapseThree" aria-expanded="false" aria-controls="businessProgramsCollapseThree">
+
+                            </button>
+                        </h2>
+                        <div id="businessProgramsCollapseThree" class="accordion-collapse collapse" aria-labelledby="businessProgramsHeadingThree" data-bs-parent="#businessProgramsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="businessProgramsHeadingFour">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#businessProgramsCollapseFour" aria-expanded="true" aria-controls="studenEmploymentCollapseFour">
+
+                            </button>
+                        </h2>
+                        <div id="businessProgramsCollapseFour" class="accordion-collapse collapse" aria-labelledby="businessProgramsHeadingFour" data-bs-parent="#businessProgramsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessProgramsHeadingFive">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessProgramsCollapseFive" aria-expanded="false" aria-controls="businessProgramsCollapseFive">
+
+                            </button>
+                        </h2>
+                        <div id="businessProgramsCollapseFive" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingFive" data-bs-parent="#businessProgramsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessProgramsHeadingSix">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessProgramsCollapseSix" aria-expanded="false" aria-controls="businessProgramsCollapseSix">
+
+                            </button>
+                        </h2>
+                        <div id="businessProgramsCollapseSix" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingSix" data-bs-parent="#businessProgramsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div id="business_grants" class="bg-business vert_h">
+            <div class="spacer-sm"></div>
+            <div class="banner text-center align-middle justify-content-center d-flex  align-items-center">
+                <h1 class="h1 text-white">Grants</h1>
+            </div>
+            <div class="spacer-sm"></div>
+            <div class="container col-12">
+                <div class="accordion" id="businessGrantsAccordion">
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="businessGrantsHeadingOne">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#businessGrantsCollapseOne" aria-expanded="true" aria-controls="businessGrantsCollapseOne">
+
+                            </button>
+                        </h2>
+                        <div id="businessGrantsCollapseOne" class="accordion-collapse collapse" aria-labelledby="businessGrantsHeadingOne" data-bs-parent="#businessGrantsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessGrantsHeadingTwo">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessGrantsCollapseTwo" aria-expanded="false" aria-controls="businessGrantsCollapseTwo">
+
+                            </button>
+                        </h2>
+                        <div id="businessGrantsCollapseTwo" class="accordion-collapse collapse" aria-labelledby="businessGrantsHeadingTwo" data-bs-parent="#businessGrantsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessGrantsHeadingThree">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessGrantsCollapseThree" aria-expanded="false" aria-controls="businessGrantsCollapseThree">
+
+                            </button>
+                        </h2>
+                        <div id="businessGrantsCollapseThree" class="accordion-collapse collapse" aria-labelledby="businessGrantsHeadingThree" data-bs-parent="#businessGrantsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header " id="businessGrantsHeadingFour">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#businessGrantsCollapseFour" aria-expanded="true" aria-controls="studenEmploymentCollapseFour">
+
+                            </button>
+                        </h2>
+                        <div id="businessGrantsCollapseFour" class="accordion-collapse collapse" aria-labelledby="businessGrantsHeadingFour" data-bs-parent="#businessGrantsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessGrantsHeadingFive">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessGrantsCollapseFive" aria-expanded="false" aria-controls="businessGrantsCollapseFive">
+
+                            </button>
+                        </h2>
+                        <div id="businessGrantsCollapseFive" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingFive" data-bs-parent="#businessGrantsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-student border border-0 mt-5 mb-5">
+                        <h2 class="accordion-header" id="businessGrantsHeadingSix">
+                            <button class="accordion-button text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#businessGrantsCollapseSix" aria-expanded="false" aria-controls="businessGrantsCollapseSix">
+
+                            </button>
+                        </h2>
+                        <div id="businessGrantsCollapseSix" class="accordion-collapse collapse" aria-labelledby="studentDatasetHeadingSix" data-bs-parent="#businessGrantsAccordion">
+                            <div class="accordion-body bg-white">
+                                <p class="text-black">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum arcu in enim gravida lacinia. Suspendisse aliquet, mi id tempus lobortis,
+                                    odio turpis faucibus augue, vel luctus justo urna et turpis. Nulla interdum vulputate leo non sollicitudin. Aliquam erat volutpat. Vestibulum elementum
+                                    mattis auctor. Nullam tristique eu nisl non rhoncus. Phasellus iaculis ut mi vitae tempus. Quisque luctus facilisis libero, quis accumsan dui molestie quis.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec lobortis placerat feugiat.
+                                </p>
+                                <label>List:</label>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li class="list-group-item">Aliquam tincidunt mauris eu risus.</li>
+                                    <li class="list-group-item">Vestibulum auctor dapibus neque.</li>
+                                    <li class="list-group-item">Nunc dignissim risus id metus.</li>
+                                    <li class="list-group-item">Cras ornare tristique elit.</li>
+                                    <li class="list-group-item">Vivamus vestibulum ntulla nec ante.</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary mt-2">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-main vert_h">
+            <div class="spacer-sm"></div>
+            <div class="banner-white text-center align-middle justify-content-center d-flex  align-items-center">
+                <h1 class="h1 text-white">Get In Touch</h1>
+            </div>
+            <div class="spacer-sm"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" id="contact_us">
+                        h
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
